@@ -6,8 +6,21 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.App{
+  margin-top: 3rem;
+  background-color: #a7efed;
+}
+.inputBox{
+  margin: 0px 0px 18px 0px;
+  height: 1.5rem;
+  width: 23rem;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button{
+  background-color: rgb(19, 241, 19);
+  border:2px solid;
+  border-color: rgb(19, 241, 19) ;
+  height: 30px;
+  width: 70px;
+  border-radius: 20%;
 }
